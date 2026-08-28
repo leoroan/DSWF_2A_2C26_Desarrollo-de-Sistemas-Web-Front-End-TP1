@@ -1,4 +1,4 @@
-﻿/* ============================================================
+/* ============================================================
    Estilos mínimos TP1: Uso exclusivo de Bootstrap 5.3 y sus
    clases/colores utilitarios.
 
@@ -13,6 +13,28 @@
   --bp-small: 400px; /* Móviles / phablets  */
   --bp-medium: 900px; /* Tablets / notebooks */
   --bp-large: 1200px; /* Desktop / escritorio */
+}
+
+/* Componentes compartidos por las vistas de perfil */
+.profile-card {
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.profile-coin {
+  width: 180px;
+  height: 180px;
+}
+
+@media (max-width: 399.98px) {
+  .profile-card {
+    padding: 1rem !important;
+  }
+
+  .profile-coin {
+    width: 140px;
+    height: 140px;
+  }
 }
 
 /* ------------------------------------------------------------
