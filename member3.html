@@ -1,162 +1,207 @@
-﻿<!doctype html>
+﻿<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>TP1 Grupal - Integrante 3</title>
-    <!-- Bootstrap 5.3 CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <!-- Bootstrap Icons CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    />
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
-  <body class="bg-light text-dark">
-    <general-navbar></general-navbar>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil - Maximiliano Quinteros</title>
+  <!-- Bootstrap 5.3 & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    .avatar-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #0d6efd;
+    }
+    .badge-skill {
+      font-size: 0.85rem;
+      padding: 0.45em 0.85em;
+      border-radius: 20px;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .list-custom-item {
+      background-color: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 10px 16px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      font-weight: 500;
+    }
+    .info-card {
+      background: #fff;
+      border: 1px solid #f1f5f9;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+      transition: transform 0.2s ease;
+    }
+    .info-card:hover {
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+<body class="bg-light py-4">
 
-    <!-- Perfil Individual -->
-    <main class="container my-5">
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="card shadow-sm border-0 p-4">
-            <div class="row g-4 align-items-center">
-              <div class="col-md-4 text-center">
-                <img
-                  src="https://via.placeholder.com/300x300?text=Avatar+3"
-                  class="img-fluid rounded-circle shadow-sm mb-3"
-                  alt="Avatar Integrante 3"
-                />
-                <h3 class="fw-bold mb-1 text-dark">[Nombre 3]</h3>
-                <p class="text-muted mb-0">
-                  <i class="bi bi-geo-alt me-1"></i>[Ciudad, País] • [XX] años
-                </p>
-              </div>
-              <div class="col-md-8">
-                <h4 class="text-primary border-bottom pb-2">
-                  <i class="bi bi-person-fill me-1"></i>Sobre mí
-                </h4>
-                <p class="text-muted">
-                  Estudiante de Desarrollo de Sistemas Web Front End. Apasionado
-                  por la tecnología, el diseño accesible y el trabajo en equipo.
-                </p>
+  <div class="container" style="max-width: 900px;">
+    
+    <!-- Botón Volver -->
+    <div class="mb-3">
+      <a href="index.html" class="btn btn-outline-secondary btn-sm rounded-pill px-3">
+        <i class="bi bi-arrow-left"></i> Volver al Inicio
+      </a>
+    </div>
 
-                <h5 class="mt-4 text-primary">
-                  <i class="bi bi-star-fill me-1"></i>Habilidades
-                </h5>
-                <div class="d-flex flex-wrap gap-2">
-                  <span class="badge bg-secondary p-2"
-                    ><i class="bi bi-filetype-html me-1"></i>HTML5 / CSS3</span
-                  >
-                  <span class="badge bg-secondary p-2"
-                    ><i class="bi bi-filetype-js me-1"></i>JavaScript
-                    (ES6)</span
-                  >
-                  <span class="badge bg-secondary p-2"
-                    ><i class="bi bi-bootstrap-fill me-1"></i>Bootstrap 5</span
-                  >
-                  <span class="badge bg-secondary p-2"
-                    ><i class="bi bi-git me-1"></i>Control de Versiones
-                    (Git)</span
-                  >
-                </div>
-              </div>
-            </div>
-
-            <hr class="my-4" />
-
-            <div class="row g-4">
-              <div class="col-md-6">
-                <h5 class="text-primary fw-bold">
-                  <i class="bi bi-film me-2"></i>Películas Favoritas
-                </h5>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item bg-transparent px-0">
-                    <i class="bi bi-caret-right-fill text-muted me-2"></i
-                    >[Película 1]
-                  </li>
-                  <li class="list-group-item bg-transparent px-0">
-                    <i class="bi bi-caret-right-fill text-muted me-2"></i
-                    >[Película 2]
-                  </li>
-                  <li class="list-group-item bg-transparent px-0">
-                    <i class="bi bi-caret-right-fill text-muted me-2"></i
-                    >[Película 3]
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-6">
-                <h5 class="text-primary fw-bold">
-                  <i class="bi bi-disc me-2"></i>Discos Favoritos
-                </h5>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item bg-transparent px-0">
-                    <i class="bi bi-music-note-beamed text-muted me-2"></i
-                    >[Disco 1]
-                  </li>
-                  <li class="list-group-item bg-transparent px-0">
-                    <i class="bi bi-music-note-beamed text-muted me-2"></i
-                    >[Disco 2]
-                  </li>
-                  <li class="list-group-item bg-transparent px-0">
-                    <i class="bi bi-music-note-beamed text-muted me-2"></i
-                    >[Disco 3]
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <!-- Interactividad JavaScript sin estilos en línea -->
-            <div class="mt-4 text-center bg-light p-3 rounded border">
-              <button id="toggleBioBtn" class="btn btn-outline-primary">
-                <i class="bi bi-plus-circle me-1"></i>Ver detalles adicionales
-              </button>
-              <div id="extraInfo" class="mt-3 d-none">
-                <p class="mb-0 text-muted small">
-                  <i class="bi bi-info-circle-fill me-1"></i>¡Información
-                  adicional desplegada mediante JavaScript interactivo! Este
-                  bloque demuestra el cumplimiento de los requisitos del TP1 sin
-                  usar estilos inline.
-                </p>
-              </div>
-            </div>
-
-            <div class="d-flex justify-content-between mt-4">
-              <a href="index.html" class="btn btn-secondary shadow-sm"
-                ><i class="bi bi-arrow-left me-1"></i>Volver a la Portada</a
-              >
-              <a href="bitacora.html" class="btn btn-outline-dark shadow-sm"
-                ><i class="bi bi-journal-bookmark me-1"></i>Ver Bitácora</a
-              >
-            </div>
+    <!-- Contenedor Principal del Perfil -->
+    <div class="card shadow-sm border-0 rounded-4 p-4 p-md-5 mb-4">
+      
+      <!-- Encabezado / Sobre Mí -->
+      <div class="row align-items-center mb-4">
+        <div class="col-md-4 text-center mb-3 mb-md-0">
+          <img src="./img/maxi.jpg" alt="Maximiliano Quinteros" class="avatar-img shadow-sm">
+          <h3 class="fw-bold mt-3 mb-0 text-dark">Maximiliano Quinteros</h3>
+          <p class="text-muted small mb-0">
+            <i class="bi bi-geo-alt"></i> Córdoba - Argentina • 21 años
+          </p>
+        </div>
+        <div class="col-md-8 border-start-md ps-md-4">
+          <h4 class="text-primary fw-bold mb-2">
+            <i class="bi bi-person-fill"></i> Sobre mí
+          </h4>
+          <p class="text-secondary mb-3 leading-relaxed">
+            Estudiante de Desarrollo en Software, apasionado autodidacta y amante de la tecnología.
+          </p>
+          
+          <h5 class="text-primary fw-bold mb-2">
+            <i class="bi bi-star-fill text-warning"></i> Habilidades
+          </h5>
+          <div class="d-flex flex-wrap gap-2">
+            <span class="badge bg-dark text-white badge-skill"><i class="bi bi-filetype-html"></i> HTML5 / CSS3</span>
+            <span class="badge bg-dark text-white badge-skill"><i class="bi bi-filetype-js text-warning"></i> JavaScript (ES6)</span>
+            <span class="badge bg-primary text-white badge-skill"><i class="bi bi-bootstrap-fill"></i> Bootstrap 5.3</span>
+            <span class="badge bg-danger text-white badge-skill"><i class="bi bi-git"></i> Git / GitHub</span>
           </div>
         </div>
       </div>
-    </main>
 
-    <!-- Footer -->
-    <footer class="text-center py-4 mt-5 bg-dark text-white">
-      <div class="container">
-        <p class="mb-0">
-          &copy; 2026 Desarrollo de Sistemas Web · Front End · Trabajo Práctico
-          Grupal 1
-        </p>
+      <hr class="my-4 text-muted">
+
+      <!-- Series y Discos Favoritos -->
+      <div class="row g-4 mb-4">
+        <!-- Series -->
+        <div class="col-md-6">
+          <h5 class="text-primary fw-bold mb-3">
+            <i class="bi bi-film"></i> Series Favoritas
+          </h5>
+          <div class="list-custom-item">
+            <i class="bi bi-caret-right-fill text-primary me-2"></i> Breaking Bad
+          </div>
+          <div class="list-custom-item">
+            <i class="bi bi-caret-right-fill text-primary me-2"></i> Vikings
+          </div>
+          <div class="list-custom-item">
+            <i class="bi bi-caret-right-fill text-primary me-2"></i> Peaky Blinders
+          </div>
+        </div>
+
+        <!-- Discos -->
+        <div class="col-md-6">
+          <h5 class="text-primary fw-bold mb-3">
+            <i class="bi bi-disc"></i> Discos Favoritos
+          </h5>
+          <div class="list-custom-item">
+            <i class="bi bi-music-note-beamed text-success me-2"></i> Death Race For Love
+          </div>
+          <div class="list-custom-item">
+            <i class="bi bi-music-note-beamed text-success me-2"></i> Legends Never Die
+          </div>
+          <div class="list-custom-item">
+            <i class="bi bi-music-note-beamed text-success me-2"></i> Goodbye &amp; Good Riddance
+          </div>
+        </div>
       </div>
-    </footer>
 
-    <!-- Bootstrap JS Bundle -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-    <script type="module" src="js/components/general-navbar.js"></script>
-<script src="js/main.js"></script>
-  </body>
+      <!-- Botón Interactivo Función JS -->
+      <div class="text-center my-3">
+        <button id="btnToggleDetalles" class="btn btn-primary px-4 py-2 rounded-pill shadow-sm fw-medium">
+          Ocultar detalles adicionales
+        </button>
+      </div>
+
+      <!-- Detalles Adicionales -->
+      <div id="seccionDetalles" class="row g-3 mt-2">
+        <div class="col-md-4">
+          <div class="card p-3 text-center h-100 info-card border-0 bg-light">
+            <div class="fs-2 text-primary mb-2"><i class="bi bi-people-fill"></i></div>
+            <h6 class="fw-bold mb-1">Trabajo en Equipo</h6>
+            <p class="text-muted small mb-0">Versátil y ágil</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card p-3 text-center h-100 info-card border-0 bg-light">
+            <div class="fs-2 text-danger mb-2"><i class="bi bi-headphones"></i></div>
+            <h6 class="fw-bold mb-1">Música &amp; Gaming</h6>
+            <p class="text-muted small mb-0">Fanático de Juice Wrld y los juegos cooperativos</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card p-3 text-center h-100 info-card border-0 bg-light">
+            <div class="fs-2 text-success mb-2"><i class="bi bi-rocket-takeoff-fill"></i></div>
+            <h6 class="fw-bold mb-1">Objetivos</h6>
+            <p class="text-muted small mb-0">Poder desarrollarme en todas las áreas del software.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Badge Stack -->
+      <div class="text-center mt-4">
+        <span class="badge bg-secondary text-light px-3 py-2 rounded-2 fw-normal">
+          &lt;/&gt; JS Vanilla + Bootstrap 5
+        </span>
+      </div>
+
+      <!-- Acceso a los Proyectos / Demos -->
+      <div class="card border-0 bg-light rounded-4 p-4 mt-4 shadow-sm">
+        <h6 class="fw-bold text-dark mb-3 text-center">
+          <i class="bi bi-folder2-open me-1"></i> Acceso al Proyecto PFO1 de FrontEnd
+        </h6>
+        <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+          <a href="https://dswf-2-a-2-c26-desarrollo-de-sistem.vercel.app/" target="_blank" class="btn btn-outline-primary fw-medium px-4 py-2">
+            <i class="bi bi-rocket me-1"></i> Ver Demo en Vercel
+          </a>
+          <a href="https://github.com/leoroan/DSWF_2A_2C26_Desarrollo-de-Sistemas-Web-Front-End-TP1" target="_blank" class="btn btn-dark fw-medium px-4 py-2">
+            <i class="bi bi-github me-1"></i> Ver Demo en GitHub-Pages!
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Función JS Vanilla para alternar visibilidad -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const btn = document.getElementById('btnToggleDetalles');
+      const detalles = document.getElementById('seccionDetalles');
+
+      btn.addEventListener('click', () => {
+        if (detalles.style.display === 'none') {
+          detalles.style.display = 'flex';
+          btn.textContent = 'Ocultar detalles adicionales';
+        } else {
+          detalles.style.display = 'none';
+          btn.textContent = 'Mostrar detalles adicionales';
+        }
+      });
+    });
+  </script>
+</body>
 </html>
