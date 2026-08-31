@@ -15,28 +15,6 @@
   --bp-large: 1200px; /* Desktop / escritorio */
 }
 
-/* Componentes compartidos por las vistas de perfil */
-.profile-card {
-  max-width: 900px;
-  margin-inline: auto;
-}
-
-.profile-coin {
-  width: 180px;
-  height: 180px;
-}
-
-@media (max-width: 399.98px) {
-  .profile-card {
-    padding: 1rem !important;
-  }
-
-  .profile-coin {
-    width: 140px;
-    height: 140px;
-  }
-}
-
 /* ------------------------------------------------------------
  * Indicador visual de breakpoint activo (debug / validación).
  * Fijo en una esquina, muestra SOLO los 3 breakpoints propios:
