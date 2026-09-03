@@ -22,129 +22,112 @@
     <general-navbar></general-navbar>
 
     <!-- Perfil Individual -->
-    <main class="container my-5">
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="card shadow-sm border-0 p-4">
-            <div class="row g-4 align-items-center">
-              <div class="col-md-4 text-center">
-                <img
-                  src="./img/nidia.jpg"
-                  class="img-fluid rounded-circle shadow-sm mb-3"
-                  alt="Nidia Elías"
-                />
-                <h3 class="fw-bold mb-1 text-dark">Nidia Elías</h3>
-                <p class="text-muted mb-0">
-                  <i class="bi bi-geo-alt me-1"></i>Mar de Ajó, Argentina • 35 años
-                </p>
-              </div>
-              <div class="col-md-8">
-                <h4 class="text-primary border-bottom pb-2">
-                  <i class="bi bi-person-fill me-1"></i>Sobre mí
-                </h4>
-                <p class="text-muted">
-                  Estudiante de Desarrollo de Software y Profesora de Matemática, enfocada en aplicar la tecnología para resolver problemas reales.
-                </p>
+    
 
-                <h5 class="mt-4 text-primary">
-                  <i class="bi bi-star-fill me-1"></i>Habilidades
-                </h5>
-                <div class="d-flex flex-wrap gap-2">
-                  <span class="badge bg-secondary p-2"
-                    ><i class="bi bi-filetype-html me-1"></i>HTML5 / CSS3</span
-                  >
-                  <span class="badge bg-secondary p-2"
-                    ><i class="bi bi-filetype-js me-1"></i>JavaScript
-                    (ES6)</span
-                  >
-                  <span class="badge bg-secondary p-2"
-                    ><i class="bi bi-bootstrap-fill me-1"></i>Bootstrap 5</span
-                  >
-                  <span class="badge bg-secondary p-2"
-                    ><i class="bi bi-git me-1"></i>C-SHARP</span
-                  >
-                  <span class="badge bg-secondary p-2"
-                    ><i class="bi bi-git me-1"></i>MySql</span
-                  >
+<main class="container my-3 my-md-5 px-3">
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-8">
+      <div class="card shadow-sm border-0 p-3 p-md-4">
+        <div class="row g-4 align-items-center">
+          <!-- Columna foto e identificación -->
+          <div class="col-12 col-md-4 text-center">
+            <img
+              src="./img/nidia.jpg"
+              class="img-fluid rounded-circle shadow-sm mb-3"
+              style="max-width: 150px;"
+              alt="Nidia Elías"
+            />
+            <h3 class="fw-bold mb-1 text-dark">Nidia Elías</h3>
+            <p class="text-muted mb-0 small">
+              <i class="bi bi-geo-alt me-1"></i>Mar de Ajó, Argentina • 35 años
+            </p>
+          </div>
+          
+          <!-- Columna sobre mí y habilidades -->
+          <div class="col-12 col-md-8">
+            <h4 class="text-primary border-bottom pb-2 text-center text-md-start">
+              <i class="bi bi-person-fill me-1"></i>Sobre mí
+            </h4>
+            <p class="text-muted text-center text-md-start">
+              Estudiante de Desarrollo de Software y Profesora de Matemática, enfocada en aplicar la tecnología para resolver problemas reales.
+            </p>
 
-                  <!--<span class="badge bg-secondary p-2"
-                    ><i class="bi bi-git me-1"></i>Control de Versiones
-                    (Git)</span
-                  >-->
-                </div>
-              </div>
-            </div>
-
-            <hr class="my-4" />
-
-            <div class="row g-4">
-              <div class="col-md-6">
-                <h5 class="text-primary fw-bold">
-                  <i class="bi bi-film me-2"></i>Películas Favoritas
-                </h5>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item bg-transparent px-0">
-                    <i class="bi bi-caret-right-fill text-muted me-2"></i
-                    >El Origen
-                  </li>
-                  <li class="list-group-item bg-transparent px-0">
-                    <i class="bi bi-caret-right-fill text-muted me-2"></i
-                    >Dark City
-                  </li>
-                  <li class="list-group-item bg-transparent px-0">
-                    <i class="bi bi-caret-right-fill text-muted me-2"></i
-                    >Volver al futuro
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-6">
-                <h5 class="text-primary fw-bold">
-                  <i class="bi bi-disc me-2"></i>Discos Favoritos
-                </h5>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item bg-transparent px-0">
-                    <i class="bi bi-music-note-beamed text-muted me-2"></i
-                    >Valses y Serenatas
-                  </li>
-                  <li class="list-group-item bg-transparent px-0">
-                    <i class="bi bi-music-note-beamed text-muted me-2"></i
-                    >Magia y misterio del folklore
-                  </li>
-                  <li class="list-group-item bg-transparent px-0">
-                    <i class="bi bi-music-note-beamed text-muted me-2"></i
-                    >Rubber Soul
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <!-- Interactividad JavaScript sin estilos en línea -->
-            <div class="mt-4 text-center bg-light p-3 rounded border">
-              <button id="toggleBioBtn" class="btn btn-outline-primary">
-                <i class="bi bi-plus-circle me-1"></i>Ver detalles adicionales
-              </button>
-              <div id="extraInfo" class="mt-3 d-none">
-                <p class="mb-0 text-muted small">
-                  <i class="bi bi-info-circle-fill me-1"></i>¡Información
-                  adicional desplegada mediante JavaScript interactivo! Este
-                  bloque demuestra el cumplimiento de los requisitos del TP1 sin
-                  usar estilos inline.
-                </p>
-              </div>
-            </div>
-
-            <div class="d-flex justify-content-between mt-4">
-              <a href="index.html" class="btn btn-secondary shadow-sm"
-                ><i class="bi bi-arrow-left me-1"></i>Volver a la Portada</a
-              >
-              <a href="bitacora.html" class="btn btn-outline-dark shadow-sm"
-                ><i class="bi bi-journal-bookmark me-1"></i>Ver Bitácora</a
-              >
+            <h5 class="mt-4 text-primary text-center text-md-start">
+              <i class="bi bi-star-fill me-1"></i>Habilidades
+            </h5>
+            <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
+              <span class="badge bg-secondary p-2"><i class="bi bi-filetype-html me-1"></i>HTML5 / CSS3</span>
+              <span class="badge bg-secondary p-2"><i class="bi bi-filetype-js me-1"></i>JavaScript (ES6)</span>
+              <span class="badge bg-secondary p-2"><i class="bi bi-bootstrap-fill me-1"></i>Bootstrap 5</span>
+              <span class="badge bg-secondary p-2"><i class="bi bi-git me-1"></i>C-SHARP</span>
+              <span class="badge bg-secondary p-2"><i class="bi bi-git me-1"></i>MySql</span>
             </div>
           </div>
         </div>
+
+        <hr class="my-4" />
+
+        <!-- Listas adaptables -->
+        <div class="row g-4">
+          <div class="col-12 col-md-6">
+            <h5 class="text-primary fw-bold text-center text-md-start">
+              <i class="bi bi-film me-2"></i>Películas Favoritas
+            </h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-transparent border rounded-3 p-2 mb-2">
+                <i class="bi bi-caret-right-fill text-muted me-2"></i>El Origen
+              </li>
+              <li class="list-group-item bg-transparent border rounded-3 p-2 mb-2">
+                <i class="bi bi-caret-right-fill text-muted me-2"></i>Dark city
+              </li>
+              <li class="list-group-item bg-transparent border rounded-3 p-2 mb-2">
+                <i class="bi bi-caret-right-fill text-muted me-2"></i>Volver al futuro
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6">
+            <h5 class="text-primary fw-bold text-center text-md-start">
+              <i class="bi bi-disc me-2"></i>Discos Favoritos
+            </h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-transparent border rounded-3 p-2 mb-2">
+                <i class="bi bi-caret-right-fill text-muted me-2"></i>Valses y Serenatas
+              </li>
+              <li class="list-group-item bg-transparent border rounded-3 p-2 mb-2">
+                <i class="bi bi-caret-right-fill text-muted me-2"></i>Magia y misterio del folklore
+              </li>
+              <li class="list-group-item bg-transparent border rounded-3 p-2 mb-2">
+                <i class="bi bi-caret-right-fill text-muted me-2"></i>Rubber Soul
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bloque interactivo -->
+        <div class="mt-4 text-center bg-light p-3 rounded border">
+          <button id="toggleBioBtn" class="btn btn-outline-primary w-100 w-sm-auto">
+            <i class="bi bi-plus-circle me-1"></i>Ver detalles adicionales
+          </button>
+          <div id="extraInfo" class="mt-3 d-none">
+            <p class="mb-0 text-muted small">
+              <i class="bi bi-info-circle-fill me-1"></i>¡Información adicional desplegada mediante JavaScript interactivo!
+            </p>
+          </div>
+        </div>
+
+        <!-- Botones de navegación adaptables -->
+        <div class="d-flex flex-column flex-sm-row justify-content-between gap-2 mt-4">
+          <a href="index.html" class="btn btn-secondary shadow-sm w-100 w-sm-auto text-center">
+            <i class="bi bi-arrow-left me-1"></i>Volver a la Portada
+          </a>
+          <a href="bitacora.html" class="btn btn-outline-dark shadow-sm w-100 w-sm-auto text-center">
+            <i class="bi bi-journal-bookmark me-1"></i>Ver Bitácora
+          </a>
+        </div>
       </div>
-    </main>
+    </div>
+  </div>
+</main>
 
     <!-- Footer -->
     <footer class="text-center py-4 mt-5 bg-dark text-white">
