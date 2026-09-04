@@ -104,16 +104,106 @@
         </div>
 
         <!-- Bloque interactivo -->
-        <div class="mt-4 text-center bg-light p-3 rounded border">
-          <button id="toggleBioBtn" class="btn btn-outline-primary w-100 w-sm-auto">
-            <i class="bi bi-plus-circle me-1"></i>Ver detalles adicionales
-          </button>
-          <div id="extraInfo" class="mt-3 d-none">
-            <p class="mb-0 text-muted small">
-              <i class="bi bi-info-circle-fill me-1"></i>¡Información adicional desplegada mediante JavaScript interactivo!
-            </p>
-          </div>
-        </div>
+        <div class="mt-4 text-center">
+              <div class="card border-0 shadow-sm bg-light">
+                <div class="card-body p-4">
+                  <button
+                    id="toggleBioBtn"
+                    class="btn btn-outline-primary rounded-pill px-4"
+                  >
+                    <i class="bi bi-plus-circle me-1"></i>Ver detalles
+                    adicionales
+                  </button>
+
+                  <!-- El JS sigue funcionando igual al usar d-none -->
+                  <div id="extraInfo" class="mt-4 d-none">
+                    <div class="row g-3 justify-content-center">
+                      <!-- Item 1: Soft Skill -->
+                      <div class="col-md-4 col-sm-6">
+                        <div class="p-3 bg-white rounded-3 shadow-sm h-100">
+                          <i
+                            class="bi bi-people-fill text-primary fs-3 mb-2 d-block"
+                          ></i>
+                          <h6 class="fw-bold">Trabajo</h6>
+                          <p class="small text-muted mb-0">
+                            Escribir alguna habilidad
+                          </p>
+                        </div>
+                      </div>
+
+                      <!-- Item 2: Hobbies -->
+                      <div class="col-md-4 col-sm-6">
+                        <div class="p-3 bg-white rounded-3 shadow-sm h-100">
+                          <i
+                            class="bi bi-headset text-danger fs-3 mb-2 d-block"
+                          ></i>
+                          <h6 class="fw-bold">Música</h6>
+                          <p class="small text-muted mb-0">
+                            escribir algun hobbie
+                          </p>
+                        </div>
+                      </div>
+
+                      <!-- Item 3: Meta -->
+                      <div class="col-md-4 col-sm-6">
+                        <div class="p-3 bg-white rounded-3 shadow-sm h-100">
+                          <i
+                            class="bi bi-rocket-takeoff-fill text-success fs-3 mb-2 d-block"
+                          ></i>
+                          <h6 class="fw-bold">Objetivos</h6>
+                          <p class="small text-muted mb-0">
+                            Escribir algun objetivo
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Nota técnica para el TP -->
+                    <div class="mt-3 pt-3 border-top">
+                      <span class="badge bg-secondary">
+                        <i class="bi bi-code-square me-1"></i>JS Vanilla +
+                        Bootstrap 5
+                      </span>
+                    </div>
+
+                    <div class="mt-4">
+                      <div class="card border-0 shadow-sm bg-light">
+                        <div class="card-body p-3">
+                          <h6 class="fw-bold text-center mb-3">
+                            <i class="bi bi-folder2-open me-1"></i>Acceso al
+                            Proyecto PFO1 de FrontEnd
+                          </h6>
+                          <div class="row g-2">
+                            <!-- Botón Vercel (Producción) -->
+                            <div class="col-6">
+                              <a
+                                href="agregarlinkvercel"
+                                target="_blank"
+                                class="btn btn-outline-primary w-100 py-2"
+                              >
+                                <i class="bi bi-rocket-takeoff me-1"></i> Ver
+                                Demo en Vercel
+                              </a>
+                            </div>
+                            <!-- Botón GitHub (Código) -->
+                            <div class="col-6">
+                              <a
+                                href="agregarlinkgithub"
+                                target="_blank"
+                                class="btn btn-dark w-100 py-2"
+                              >
+                                <i class="bi bi-github me-1"></i> Ver Demo en
+                                GitHub-Pages!
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
         <!-- Botones de navegación adaptables -->
         <div class="d-flex flex-column flex-sm-row justify-content-between gap-2 mt-4">
