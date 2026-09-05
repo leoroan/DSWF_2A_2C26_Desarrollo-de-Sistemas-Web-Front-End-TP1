@@ -14,7 +14,7 @@ Este es el primer trabajo práctico grupal del curso de Desarrollo de Sistemas W
 - **Javier Canteros**: [github.com/USUARIO-javier](https://github.com/USUARIO-javier) <!-- TODO: pegar el perfil real -->
 - **Maximiliano Quinteros**: [github.com/USUARIO-maximiliano](https://github.com/USUARIO-maximiliano) <!-- TODO: pegar el perfil real -->
 - **Damián Pelisare**: [github.com/USUARIO-damian](https://github.com/USUARIO-damian) <!-- TODO: pegar el perfil real -->
-- **Nidia Elias**: [github.com/USUARIO-nidia](https://github.com/USUARIO-nidia) <!-- TODO: pegar el perfil real -->
+- **Nidia Elías**: [github.com/USUARIO-nidia](https://github.com/nidia-elias) <!-- TODO: pegar el perfil real -->
 
 > ⚠️ **Pendiente del equipo:** reemplazar cada `USUARIO-...` por el link real de GitHub de cada integrante (ej. `[github.com/leoroan](https://github.com/leoroan)`). Los cuatro perfiles restantes figuran como placeholder.
 
