@@ -11,12 +11,10 @@ Este es el primer trabajo práctico grupal del curso de Desarrollo de Sistemas W
 ### Integrantes del Equipo
 
 - **Leandro Maselli** (Responsable de Estructura y Bases del Proyecto): [github.com/leoroan](https://github.com/leoroan)
-- **Javier Canteros**: [github.com/USUARIO-javier](https://github.com/USUARIO-javier) <!-- TODO: pegar el perfil real -->
-- **Maximiliano Quinteros**: [github.com/USUARIO-maximiliano](https://github.com/USUARIO-maximiliano) <!-- TODO: pegar el perfil real -->
-- **Damián Pelisare**: [github.com/USUARIO-damian](https://github.com/USUARIO-damian) <!-- TODO: pegar el perfil real -->
-- **Nidia Elías**: [github.com/USUARIO-nidia](https://github.com/nidia-elias) <!-- TODO: pegar el perfil real -->
-
-> ⚠️ **Pendiente del equipo:** reemplazar cada `USUARIO-...` por el link real de GitHub de cada integrante (ej. `[github.com/leoroan](https://github.com/leoroan)`). Los cuatro perfiles restantes figuran como placeholder.
+- **Javier Canteros**: [github.com/USUARIO-javier](https://github.com/zirocool3)
+- **Maximiliano Quinteros**: [github.com/USUARIO-maximiliano](https://github.com/Maxi22xT)
+- **Damián Pelisare**: [github.com/USUARIO-damian](https://github.com/Damian-E)
+- **Nidia Elías**: [github.com/USUARIO-nidia](https://github.com/NidiaElias)
 
 ---
 
@@ -149,13 +147,5 @@ Toda la interactividad está en [`js/main.js`](../js/main.js), cargado en la por
   - Uso temporal de marcadores de posición (placeholders) listos para ser reemplazados por los avatares o fotos reales de los integrantes.
 - **Revisión y Adaptación:**
   - Leandro revisó, probó y validó minuciosamente la estructura generada por el agente (Cline con Gemini 3.5), asegurando el cumplimiento total de los requisitos de Bootstrap 5.3, la responsividad y la rúbrica del TP1 antes de su publicación.
-
-### Pendientes para la entrega (checklist de aprobación)
-
-Para que el proyecto quede **aprobado**, el README debe cerrar estos puntos que dependen del equipo:
-
-- [ ] **Capturas de pantalla reales** (`img/capturas/`): portada con el botón de saludo y perfil con el desplegable abierto/cerrado. Hoy figuran como placeholders.
-- [ ] **Perfil de GitHub de cada integrante**: reemplazar los `USUARIO-...` de la sección _Integrantes_ por el link real de cada uno.
-- [ ] (Opcional) Incorporar una **Google Font** real (CDN) si se quiere cumplir literalmente la guía de estilos, y documentarla acá.
 
 ---
