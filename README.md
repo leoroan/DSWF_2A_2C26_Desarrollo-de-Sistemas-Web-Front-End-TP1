@@ -174,9 +174,33 @@ Para que el proyecto quede **aprobado**, el README debe cerrar estos puntos que 
 
 ---
 
-* **Tablet:** 481px – 768px *(Pendiente)*
-* **Laptop / Escritorio:** 769px – 1024px+ *(Pendiente)*
-* **Pantallas Grandes:** 1200px+ *(Pendiente)*
+* **Tablet:** 481px – 768px 
+| Sección / Vista | Capturas de pantalla |
+| :--- | :--- |
+| **Portada** | ![Portada](capturas/tablet/portada-tablet.png) |
+| **Menú Hamburguesa** | ![Menú hamburguesa](capturas/tablet/menu-ham-tablet.png) |
+| **Perfil Individual** | ![Perfil](capturas/tablet/perfil-tablet.png) ![Detalles Adicionales](capturas/tablet/detalles-ad-tablet.png) |
+| **Footer** | ![Footer](capturas/tablet/footer-tablet.png) |
+| **Bitácora** | ![Bitácora 1](capturas/tablet/bitacora1-tablet.png) ![Bitácora 2](capturas/tablet/bitacora-tablet.png) |
+
+
+* **Laptop / Escritorio:** 769px – 1024px
+| Sección / Vista | Capturas de pantalla |
+| :--- | :--- |
+| **Portada** | ![Portada](captura/laptop/portada.png) |
+| **Perfil Individual** | ![Perfil](capturas/laptop/perfil.png) ![Detalles Adicionales](capturas/laptop/detalles-ad.png) |
+| **Footer** | ![Footer](capturas/laptop/footer.png) |
+| **Bitácora** | ![Bitácora 1](capturas/laptop/bitacora.png)|
+
+* **Pantallas Grandes:** 1200px+
+
+| Sección / Vista | Capturas de pantalla |
+| :--- | :--- |
+| **Portada** | ![Portada](capturas/pantalla-gr/portada.png) |
+| **Perfil Individual** | ![Perfil](capturas/pantalla-gr/perfil.png) ![Detalles Adicionales](capturas/pantalla-gr/detalles-ad.png) |
+| **Footer** | ![Footer](capturas/pantalla-gr/footer.png) |
+| **Bitácora** | ![Bitácora 1](capturas/pantalla-gr/bitacora.png)|
+
 
 
 ---
