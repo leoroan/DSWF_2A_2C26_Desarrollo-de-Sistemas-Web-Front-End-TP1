@@ -161,11 +161,11 @@ Para que el proyecto quede **aprobado**, el README debe cerrar estos puntos que 
 
 ### QA Responsive
 **Verificación de la correcta visualizacion en los diferentes breakpoints:** 
-* **Móvil:** 320px – 480px
-* **Portada:** 
+**Móvil:** 320px – 480px
+**Portada:** 
 ![Portada](capturas/movil/portada1.png)
 ![Portada-perfil](capturas/movil/portada-perfil.png)
-* **Menú hamburguesa:** 
+**Menú hamburguesa:** 
 ![Menú hamburguesa](capturas/movil/menu-ham.png)
 * **Perfil individual:** 
 ![Perfil individual](capturas/movil/perfil-ind.png)
