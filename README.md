@@ -158,6 +158,25 @@ Para que el proyecto quede **aprobado**, el README debe cerrar estos puntos que 
 - [ ] **Perfil de GitHub de cada integrante**: reemplazar los `USUARIO-...` de la sección _Integrantes_ por el link real de cada uno.
 - [ ] (Opcional) Incorporar una **Google Font** real (CDN) si se quiere cumplir literalmente la guía de estilos, y documentarla acá.
 
+### QA Responsive
+
+**Verificación de la correcta visualización en breakpoints:**
+
+#### Móvil (320px – 480px)
+
+| Sección / Vista | Capturas de pantalla |
+| :--- | :--- |
+| **Portada** | ![Portada](capturas/movil/portada1.png) ![Portada Perfil](capturas/movil/portada-perfil.png) |
+| **Menú Hamburguesa** | ![Menú hamburguesa](capturas/movil/menu-ham.png) |
+| **Perfil Individual** | ![Perfil](capturas/movil/perfil-ind.png) ![Películas y Discos](capturas/movil/perfil-ind2.png) ![Detalles Adicionales](capturas/movil/perfil-detalles-ad.png) |
+| **Footer** | ![Footer](capturas/movil/perfil-footer.png) |
+| **Bitácora** | ![Bitácora 1](capturas/movil/bitacora1.png) ![Bitácora 2](capturas/movil/bitacora2.png) |
+
+---
+
+* **Tablet:** 481px – 768px *(Pendiente)*
+* **Laptop / Escritorio:** 769px – 1024px+ *(Pendiente)*
+* **Pantallas Grandes:** 1200px+ *(Pendiente)*
 
 ### QA Responsive
 **Verificación de la correcta visualizacion en los diferentes breakpoints:** 
