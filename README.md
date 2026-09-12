@@ -162,18 +162,18 @@ Para que el proyecto quede **aprobado**, el README debe cerrar estos puntos que 
 ### QA Responsive
 **Verificación de la correcta visualizacion en los difernetes breakpoints:** 
 * **Móvil:** 320px – 480px
-![Portada](capturas/portada.png)
-![Portada-perfil](capturas/portada-perfil.png)
+![Portada](capturas/movil/portada.png)
+![Portada-perfil](capturas/movil/portada-perfil.png)
 
-![Menú hamburguesa](capturas/menu-ham.png)
+![Menú hamburguesa](capturas/movil/menu-ham.png)
 
-![Perfil individual](capturas/perfil-ind.png)
-![Sección peliculas y discos](capturas/perfil-ind2.png)
-![Detalles adicionales](capturas/perfil-detalles-ad.png)
-![Footer](capturas/perfil-footer.png)
+![Perfil individual](capturas/movil/perfil-ind.png)
+![Sección peliculas y discos](capturas/movil/perfil-ind2.png)
+![Detalles adicionales](capturas/movil/perfil-detalles-ad.png)
+![Footer](capturas/movil/perfil-footer.png)
 
-![Bitácora](capturas/bitacora1.png)
-![Bitácora](capturas/bitacora2.png)
+![Bitácora](capturas/movil/bitacora1.png)
+![Bitácora](capturas/movil/bitacora2.png)
 
 * **Tablet:** 481px – 768px
 * **Laptop / Escritorio:** 769px – 1024px+
