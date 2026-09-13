@@ -164,7 +164,7 @@ Para que el proyecto quede **aprobado**, el README debe cerrar estos puntos que 
 
 #### Móvil (320px – 480px)
 
-| Sección / Vista | Capturas de pantalla |
+| Sección | Capturas de pantalla |
 | :--- | :--- |
 | **Portada** | ![Portada](capturas/movil/portada1.png) ![Portada Perfil](capturas/movil/portada-perfil.png) |
 | **Menú Hamburguesa** | ![Menú hamburguesa](capturas/movil/menu-ham.png) |
@@ -175,8 +175,8 @@ Para que el proyecto quede **aprobado**, el README debe cerrar estos puntos que 
 ---
 #### Tablet (481px – 768px)
 
-| Sección / Vista | Capturas de pantalla |
-| :--- | :--- |
+| Sección | Capturas de pantalla |
+| :--- | :---: |
 | **Portada** | ![Portada](capturas/tablet/portada-tablet.png) |
 | **Menú Hamburguesa** | ![Menú hamburguesa](capturas/tablet/menu-ham-tablet.png) |
 | **Perfil Individual** | ![Perfil](capturas/tablet/perfil-tablet.png) ![Detalles Adicionales](capturas/tablet/detalles-ad-tablet.png) |
