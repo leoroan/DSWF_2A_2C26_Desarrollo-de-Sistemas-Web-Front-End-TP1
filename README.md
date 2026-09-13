@@ -173,8 +173,8 @@ Para que el proyecto quede **aprobado**, el README debe cerrar estos puntos que 
 | **Bitácora** | ![Bitácora 1](capturas/movil/bitacora1.png) ![Bitácora 2](capturas/movil/bitacora2.png) |
 
 ---
+#### Tablet (481px – 768px)
 
-* **Tablet:** 481px – 768px 
 | Sección / Vista | Capturas de pantalla |
 | :--- | :--- |
 | **Portada** | ![Portada](capturas/tablet/portada-tablet.png) |
