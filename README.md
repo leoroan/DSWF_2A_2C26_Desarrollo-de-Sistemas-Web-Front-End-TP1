@@ -183,9 +183,10 @@ Para que el proyecto quede **aprobado**, el README debe cerrar estos puntos que 
 | **Footer** | ![Footer](capturas/tablet/footer-tablet.png) |
 | **Bitácora** | ![Bitácora 1](capturas/tablet/bitacora1-tablet.png) ![Bitácora 2](capturas/tablet/bitacora-tablet.png) |
 
+---
+#### Laptop (769px – 1024px)
 
-* **Laptop / Escritorio:** 769px – 1024px
-| Sección / Vista | Capturas de pantalla |
+| Sección | Capturas de pantalla |
 | :--- | :--- |
 | **Portada** | ![Portada](capturas/laptop/portada1.png) |
 | **Perfil Individual** | ![Perfil](capturas/laptop/perfil.png) ![Detalles Adicionales](capturas/laptop/detalles-ad.png) |
